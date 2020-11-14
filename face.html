@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="face.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+   crossorigin="anonymous">
+   <script src="face.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="search_bar">
+            <span class="material-icons" style="color:  #3578E5; font-size:50px;">facebook</span> 
+            <div class="search_in"><span class="material-icons" style="color:rgb(197, 195, 195);margin-top: 5px; font-size: 24px;">search</span><input type="search" placeholder="Search Facebook" onclick="Processone();">
+       <div id="src_dp" style="display: none;">
+           <p>Updates on COVID-19</p>
+           <button type=" button"><span class="material-icons" style="color:rgb(197, 195, 195);margin-top: 5px; font-size: 24px;">search</span>coronavirus updates</button>
+           <p>Recenet searches <a href="#">Edit</a></p>
+
+       </div>
+       
+            </div>
+            </div>
+        <div class="menu">
+            <a href="#" class="active" title="Home"><span class="material-icons" style="font-size:30px;">home</span></a>
+            <a href="#" title="Friends" ><span class="material-icons"style="font-size:30px;">group</span></a>
+            <a href="#" title="Watch"><span class="material-icons"style="font-size:30px;">ondemand_video</span></a>
+            <a href="#" title="Groups"><span class="material-icons"style="font-size:30px;">groups</span></a>
+            <a href="#" title="Game"><i class="fas fa-dice-d20"style="font-size:30px;"></i></a>
+        </div>
+        <div class="nav_right" >
+            <div class="img">
+                <a href="#"><img src="assests/profil.jpg" width="35px" height="35px" style="border-radius:50%; vertical-align: middle;">Pervane</a>
+            </div>
+            <div class="icon1">
+                <i class="fas fa-plus"></i>
+
+            </div>
+            <div class="icon1">
+                <i class="fab fa-facebook-messenger"></i>
+
+            </div>
+            <div class="icon1">
+                <i class="fas fa-bell"></i>
+            </div>
+
+            <div class="icon1" onclick="Process();">
+                <i class="fas fa-caret-down"></i>
+                <div id="set_dp" onclick="Process();">
+                    <div class="goprofil">
+                        <a href="#"><img src="assests/profil.jpg" width="60px" height="60px" 
+                        style="border-radius:50%; vertical-align: middle;">Pervane Uluxanova</a>
+                    </div>
+                    <div class="line4"></div>
+                    <button type="button"><span class="material-icons"style=" margin-right:10px;background-color: rgb(85, 81, 81); padding: 7px; border-radius: 50%;">feedback</span>Give Feedback<br></button>
+                    <div class="line4"></div>
+                    <button type="button"><span class="material-icons" style="margin-right:10px; background-color: rgb(85, 81, 81); padding: 7px; border-radius: 50%;">settings</span>Setting & Privacy</button>
+                    <button type="button"><span class="material-icons"style="margin-right:10px; background-color: rgb(85, 81, 81); padding: 7px; border-radius: 50%;">help</span>Help & Support</button>     
+                    <button type="button"><span class="material-icons"style="margin-right:10px; background-color: rgb(85, 81, 81); padding: 7px; border-radius: 50%;">brightness_3</span>Display Preferences</button>
+                    <button type="button"><i class="fas fa-sign-out-alt"style="margin-right:10px; background-color: rgb(85, 81, 81); padding: 7px; border-radius: 50%;"></i>Log Out</button>
+
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="main">
+    <div class="vertical_nav">
+        <a href="#"><img src="assests/profil.jpg" width="35px" height="35px" style="border-radius:50%;vertical-align:middle;margin-right: 8px;">Pervane Uluxanova</a>
+        <a href="#"><span class="material-icons" style="color:purple;vertical-align: middle; font-size: 30px;margin-right: 6px;">coronavirus</span>COVID-19 Information center</a>
+        <a href="#"><i class="fas fa-user-friends" style="color:rgb(37, 164, 196);margin-right: 10px;"></i>Friends</a>
+        <a href="#"><i class="fas fa-users" style="color: rgb(77, 136, 245);margin-right: 10px;"></i>Groups</a>
+        <a href="#"><span class="material-icons" style="color: rgb(31, 114, 209);margin-right: 10px;">ondemand_video</span>Videos</a>
+        <a href="#"><i class="far fa-calendar-plus" style="color: rgb(121, 3, 38); font-size: 25px;margin-right: 10px;"></i>Events</a>
+        <a href="#"><i class="fas fa-history"style="color:rgb(37, 164, 196);margin-right: 10px;"></i>Memories</a>
+        <a href="#"><i class="fas fa-angle-down" style= " background-color:#333;
+         padding:5px 9px;margin-right:4px;margin-right:5px;margin-left:0;"></i>See more</a>
+        <div class="line"></div>
+        <p>Your Shortcuts</p>
+        <a href="#"><img src="assests/code.png" width="35px" height="35px" 
+        style="border-radius:50%;vertical-align:middle;margin-right: 8px;">Code Azerbaycan</a>
+        <a href="#"><img src="assests/code.png" width="35px" height="35px" 
+        style="border-radius:50%;vertical-align:middle;margin-right: 8px;">Code Azerbaycan</a>
+        <a href="#"><img src="assests/code.png" width="35px" height="35px" 
+         style="border-radius:50%;vertical-align:middle;margin-right: 8px;">Code Azerbaycan</a>
+        </div>
+    <div class="section">
+        <div class="story">
+            <div class="gall">
+                <img class="first" src="assests/profil.jpg" width="110px" height="140px">
+            </div>
+            <div class="gall">
+                <img src="assests/img2.jpg" width="110px" height="200px">
+           
+            </div>
+
+            <div class="gall">
+                <img src="assests/img3.jpg" width="110px" height="200px">
+            </div>
+
+            <div class="gall">
+                <img src="assests/img4.jpg" width="110px" height="200px">
+            </div>
+            <div class="gall">
+                <img src="assests/img4.jpg" width="110px" height="200px">
+            </div>
+
+
+
+        </div>
+        <div class="status">
+            <div class="write">
+                <img src="assests/profil.jpg" width="40px" height="40px" style="border-radius:50%; vertical-align: middle;">
+                <button type="button">What's on your mind, Pervane?</button>
+            </div>
+            <div class="line1"></div>
+            <div class="write_down">
+                <a href="#"><i class="fas fa-video" style="color:rgb(187, 51, 58); font-size:24px; vertical-align: middle; margin-right: 7px;"></i>Live Video</a>
+                <a href="#"><span class="material-icons" style="color:rgb(63, 212, 63);font-size:24px; vertical-align: middle; margin-right: 7px;">perm_media</span>Photo/Video</a>
+                <a href="#"><i class="far fa-grin" style="color:rgb(247, 217, 48);font-size:24px; vertical-align: middle; margin-right: 7px;"></i>Feeling/Activity</a>
+            </div>
+
+        </div>
+        <div class="Group">
+            <button type="button"><i class="fas fa-video" style="color:rgb(151, 42, 151); font-size:24px; vertical-align: middle; margin-right: 7px;"></i>Create Room</button>
+            <img src="assests/profil.jpg" width="40px" height="40px" style="border-radius:50%; vertical-align: middle;">
+            <img src="assests/profil.jpg" width="40px" height="40px" style="border-radius:50%; vertical-align: middle;">
+            <img src="assests/profil.jpg" width="40px" height="40px" style="border-radius:50%; vertical-align: middle;">
+        </div>
+
+    </div>
+    <div class="vertical_nav2">
+        <div class="request">
+            <p class="par">Friend Requests</p><a href="#">See All</a>
+            <div class="request_in">
+            <span>Aylin Dadashova</span>
+            <img src="assests/img5.png" width="45px" height="45px" style="border-radius:50%; vertical-align: middle;">
+            <button class="one" type="button">Confirm</button>
+            <button class="two" type="button">Delete</button>
+        </div>
+        </div>
+        <div class="line2"></div>
+
+   
+    <div class="birth">
+        <p class="par">Birthdays</p>
+        <div class="birth_in"><i class="fas fa-gift" style="color: rgb(117, 63, 153); margin-right: 10px;"></i><strong>Asiman Vahabzede</strong>'s birthday is today</div>
+        <div class="line2"></div>
+    </div>
+</div>
+</div>
+</body>
+</html>
